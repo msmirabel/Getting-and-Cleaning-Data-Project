@@ -59,4 +59,4 @@
   
   tidydata<-group[order(group$subjects, group$activities),]
 
-  write.table(tidydata, "tidydata.txt")
+  write.table(tidydata, "tidydata.txt", row.name=FALSE)
